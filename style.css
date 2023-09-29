@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.navbar-brand:hover{
+    color: #290715;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+   
+
+}
+.nav-link:hover{
+    color: rgb(173, 34, 34);
+}
+.search{
+    height:40px ;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: 1px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid rgb(49, 187, 79);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(49, 187, 79);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(img/fod.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 187, 79);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(12, 92, 29);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -1px 32px 57px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 32px 57px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 32px 57px -10px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.apple{
+    background: url(img/cover2.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 108px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news ::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0%;
+}
+.fa-facebook {
+    font-size: 50px;
+}
+.fa-instagram{
+    font-size: 50px;
+}
+.fa-square-twitter{
+    font-size: 50px;
+}
